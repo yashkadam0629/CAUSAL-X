@@ -1,0 +1,10 @@
+[project]
+name = "causal-x-backend"
+version = "0.1.0"
+description = "CAUSAL-X: prediction, causal effect estimation, uplift and constrained intervention optimisation"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q -p no:cacheprovider"
+filterwarnings = ["ignore::DeprecationWarning", "ignore::UserWarning", "ignore::PendingDeprecationWarning"]

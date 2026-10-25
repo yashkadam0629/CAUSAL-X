@@ -1,0 +1,17 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+node_modules/
+frontend/dist/
+data/synthetic/
+data/uploads/
+data/*.db
+data/*.db-*
+artifacts/models/
+artifacts/reports/
+artifacts/experiment_results/
+artifacts/*.txt
+*.log
+npm_install.log

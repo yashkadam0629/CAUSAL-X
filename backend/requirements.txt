@@ -1,0 +1,19 @@
+# Versions below are the ones the test-suite was actually run against (Python 3.12).
+fastapi==0.141.1
+uvicorn==0.52.3
+pydantic==2.13.4
+SQLAlchemy==2.1.6
+python-multipart==0.0.32
+pandas==2.2.3
+numpy==2.2.6
+scipy==1.13.1
+scikit-learn==1.9.0
+lightgbm==4.7.0
+shap==0.52.0
+pyarrow==23.0.1
+joblib==1.5.3
+reportlab==5.1.0
+# test / dev
+httpx==0.28.1
+pytest==9.1.1
+pytest-cov==7.1.0
